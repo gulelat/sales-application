@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFF"
+	>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@+id/chkBox"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="5dp"
+		android:text="Date Of Birth : "
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:textStyle="bold"
+		android:id="@+id/txtCaption"
+		/>
+	<EditText
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+       	 android:layout_centerVertical="true"
+       	 android:layout_toLeftOf="@+id/btnEdit"
+       	 android:layout_toRightOf="@+id/txtCaption"
+         android:background="@drawable/editbox_white"
+         android:hint="From"
+         android:textSize="12dp"
+         android:textColor="#000000"
+         android:id="@+id/txtValue"
+         />
+	<ImageView
+        android:layout_width="20dp"
+       	android:layout_height="20dp"
+       	android:layout_centerVertical="true"
+       	android:layout_toLeftOf="@+id/btnDelete"
+       	android:layout_marginLeft="5dp"
+       	android:layout_marginRight="2dp"
+       	android:background="@drawable/ic_pencil"
+       	android:id="@+id/btnEdit"
+      	/>
+	<ImageView
+        android:layout_width="20dp"
+       	android:layout_height="20dp"
+       	android:layout_alignParentRight="true"
+       	android:layout_centerVertical="true"
+       	android:layout_marginLeft="3dp"
+       	android:layout_marginRight="5dp"
+       	android:background="@drawable/ic_delete"
+       	android:id="@+id/btnDelete"
+      	/>
+</RelativeLayout>

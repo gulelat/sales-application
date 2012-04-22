@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SalesAppActivity!</string>
+    <string name="app_name">SalesApp</string>
+	
+    <string name="txtview_splash_title">Start 2 Close</string>
+    
+    <string name="txtview_bottombar_editProject">Edit Project</string>
+    <string name="txtview_bottombar_editCampaign">Edit Campaign</string>
+    <string name="txtview_bottombar_activityReport">Activity Reports</string>
+    <string name="txtview_bottombar_contacts">Contacts</string>
+    
+    <string name="txtview_newproject_title">Enter Name of New Project</string>
+    <string name="txtview_projectname_title">Select the fields you want to include</string>
+    <string name="txtview_inputinfo_title">Input the Information</string>
+    
+    <string name="txtview_followup_title">Which Type of follow up you want to do</string>
+    <string name="txtview_followup_textMessage">Text Message</string>
+    <string name="txtview_followup_email">Email</string>
+    <string name="txtview_followup_call">call</string>
+    
+    <string name="txtview_qualifier_title">Create Fields/Question</string>
+    <string name="txtview_qualifier_question">Type Question</string>
+    <string name="txtview_qualifier_type">Select Answer Type</string>
+    
+    <string name="txtview_newproject_example">Example : </string>
+    <string name="txtview_newproject_example1">how show 2012 </string>
+    <string name="txtview_newproject_example2">new home buyers </string>
+    
+    
+    <string name="txtview_Campagin_title">Select Text Message</string>
+    <string name="txtview_Campagin_whentosend">Select when to send it </string>
+    <string name="testview_campaign_create">home show 2012\nNew home buyer</string>
+    
+    
+    <string name="alert_dialog_fieldName">Enter Field Name</string>
+    <string name="alert_dialog_btnSave">Save</string>
+    <string name="alert_dialog_btnCancel">Cancel</string>
+</resources>
